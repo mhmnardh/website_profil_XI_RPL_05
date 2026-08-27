@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
         <div class="container">
             <a class="navbar-brand fw-bold" href="{{ route('class.index') }}">
-                <i class="bi bi-rocket-takeoff-fill text-primary me-2"></i>ClassPortal
+                <i class=" text-primary me-2"></i>Kelompok 5
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -46,13 +46,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto gap-2">
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->routeIs('class.index') ? 'active fw-semibold' : '' }}" href="{{ route('class.index') }}">Profil Kelas</a>
+                        <a class="nav-link {{ request()->routeIs('class.index') ? 'active fw-semibold' : '' }}" href="{{ route('class.index') }}">Profil Kelompok</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('class.anggota') ? 'active fw-semibold' : '' }}" href="{{ route('class.anggota') }}">Anggota</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->routeIs('class.kontak') ? 'active fw-semibold' : '' }}" href="{{ route('class.kontak') }}">Dokumentasi</a>
+                        <a class="nav-link {{ request()->routeIs('class.kontak') ? 'active fw-semibold' : '' }}" href="{{ route('class.kontak') }}">Kontak</a>
                     </li>
                 </ul>
             </div>
