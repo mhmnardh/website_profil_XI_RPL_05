@@ -14,3 +14,4 @@ Route::get('/anggota', function () {
 Route::get('/kontak', function () {
     return view('class.kontak');
 })->name('class.kontak');
+
