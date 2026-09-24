@@ -11,6 +11,7 @@ kolaborasi Git dan GitHub.
 4. Bunga - Developer
 
 URL Repository:https://github.com/mhmnardh/website_profil_XI_RPL_05
+URL Hosting Render.com:https://website-profil-xi-rpl-05.onrender.com
 
 1.Apa arti git status
     : mengecek staging area
