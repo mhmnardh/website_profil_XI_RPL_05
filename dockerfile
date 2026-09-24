@@ -1,4 +1,4 @@
-FROM php:8.2-apache
+FROM php:8.3-apache
 
 # Install ekstensi sistem & PHP yang dibutuhkan Laravel
 RUN apt-get update && apt-get install -y \
